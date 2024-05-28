@@ -382,3 +382,57 @@ body.focused #search-suggestions {
     background: linear-gradient(to right, #4e9 , #1b6);
     box-shadow: 0 10px 10px -10px #0c1;
 }
+.text-hover {
+    color: black;
+}
+.text-hover:hover{
+color: white;
+}
+
+.containers {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.big-box {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.small-box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+
+.small-box {
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.bg-moneylevel1{
+    background: linear-gradient(to right, rgb(131, 255, 119) , #1b6);
+}
+
+.bg-moneylevel2{
+    background: linear-gradient(to right, rgb(93, 252, 79) , #1b6);
+}
+
+.bg-moneylevel3{
+    background: linear-gradient(to right, rgb(39, 255, 20) , #1b6);
+}
+
+.bg-moneylevel4{
+    background: linear-gradient(to right, rgb(32, 255, 11) , #1b6);
+}
+
+.bg-moneylevel5{
+    background: linear-gradient(to right, rgb(21, 255, 0) , #1b6);
+}
+
+.bg-moneylevel6{
+    background: linear-gradient(to right, rgb(18, 212, 0) , rgb(20, 165, 1));
+}
