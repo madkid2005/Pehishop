@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.menu-item {
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.submenu, .subsubmenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}
+
+.submenu-item {
+    position: relative;
+    padding: 5px 10px;
+    white-space: nowrap;
+}
+
+.submenu-item:hover .subsubmenu {
+    display: block;
+    top: 0;
+    left: 100%;
+    margin-top: -5px;
+}
+
+.subsubmenu-item {
+    padding: 5px 10px;
+}
+
+.submenu-item:hover {
+    background-color: #555;
+}
+
+.subsubmenu-item:hover {
+    background-color: #666;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container-fluid ">
+            <div class="row mt-3 ms-3 d-flex">
+                <div class="col-md-1 menu-item ms-5">سگ
+                    <div class="submenu">
+                        <div class="submenu-item">دسته ۱
+                            <div class="subsubmenu">
+                                <div class="subsubmenu-item">غذا ۱</div>
+                                <div class="subsubmenu-item">غذا ۲</div>
+                                <div class="subsubmenu-item">غذا ۳</div>
+                            </div>
+                        </div>
+                        <div class="submenu-item">دسته ۲
+                            <div class="subsubmenu">
+                                <div class="subsubmenu-item">غذا ۱</div>
+                                <div class="subsubmenu-item">غذا ۲</div>
+                                <div class="subsubmenu-item">غذا ۳</div>
+                            </div>
+                        </div>
+                        <div class="submenu-item">دسته ۳
+                            <div class="subsubmenu">
+                                <div class="subsubmenu-item">غذا ۱</div>
+                                <div class="subsubmenu-item">غذا ۲</div>
+                                <div class="subsubmenu-item">غذا ۳</div>
+                            </div>
+                        </div>
+                        <div class="submenu-item">دسته ۴
+                            <div class="subsubmenu">
+                                <div class="subsubmenu-item">غذا ۱</div>
+                                <div class="subsubmenu-item">غذا ۲</div>
+                                <div class="subsubmenu-item">غذا ۳</div>
+                            </div>
+                        </div>
+                        <div class="submenu-item">دسته ۵
+                            <div class="subsubmenu">
+                                <div class="subsubmenu-item">غذا ۱</div>
+                                <div class="subsubmenu-item">غذا ۲</div>
+                                <div class="subsubmenu-item">غذا ۳</div>
+                            </div>
+                        </div>
+                        <div class="submenu-item">دسته ۶
+                            <div class="subsubmenu">
+                                <div class="subsubmenu-item">غذا ۱</div>
+                                <div class="subsubmenu-item">غذا ۲</div>
+                                <div class="subsubmenu-item">غذا ۳</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 menu-item">گربه
+                    <div class="submenu">
+                        <div class="submenu-item">دسته ۱</div>
+                        <div class="submenu-item">دسته ۲</div>
+                        <div class="submenu-item">دسته ۳</div>
+                        <div class="submenu-item">دسته ۴</div>
+                        <div class="submenu-item">دسته ۵</div>
+                        <div class="submenu-item">دسته ۶</div>
+                    </div>
+                </div>
+                <div class="col-md-1 menu-item">جوندگان
+                    <div class="submenu">
+                        <div class="submenu-item">دسته ۱</div>
+                        <div class="submenu-item">دسته ۲</div>
+                        <div class="submenu-item">دسته ۳</div>
+                        <div class="submenu-item">دسته ۴</div>
+                        <div class="submenu-item">دسته ۵</div>
+                        <div class="submenu-item">دسته ۶</div>
+                    </div>
+                </div>
+                <div class="col-md-1 menu-item">پرندگان
+                    <div class="submenu">
+                        <div class="submenu-item">دسته ۱
+                            <div class="subsubmenu">
+                                <div class="subsubmenu-item">غذا ۱</div>
+                                <div class="subsubmenu-item">غذا ۲</div>
+                                <div class="subsubmenu-item">غذا ۳</div>
+                            </div>
+                        </div>
+                        <div class="submenu-item">دسته ۲</div>
+                        <div class="submenu-item">دسته ۳</div>
+                        <div class="submenu-item">دسته ۴</div>
+                        <div class="submenu-item">دسته ۵</div>
+                        <div class="submenu-item">دسته ۶</div>
+                    </div>
+                </div>
+                <div class="col-md-1 menu-item">غذا خشک فله
+                    <div class="submenu">
+                        <div class="submenu-item">دسته ۱</div>
+                        <div class="submenu-item">دسته ۲</div>
+                        <div class="submenu-item">دسته ۳</div>
+                        <div class="submenu-item">دسته ۴</div>
+                        <div class="submenu-item">دسته ۵</div>
+                        <div class="submenu-item">دسته ۶</div>
+                    </div>
+                </div>
+                <div class="col-md-1 menu-item">جدیدترین مقاله
+                    <div class="submenu">
+                        <div class="submenu-item">دسته ۱</div>
+                        <div class="submenu-item">دسته ۲</div>
+                        <div class="submenu-item">دسته ۳</div>
+                        <div class="submenu-item">دسته ۴</div>
+                        <div class="submenu-item">دسته ۵</div>
+                        <div class="submenu-item">دسته ۶</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
