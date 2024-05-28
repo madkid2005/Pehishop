@@ -436,3 +436,36 @@ color: white;
 .bg-moneylevel6{
     background: linear-gradient(to right, rgb(18, 212, 0) , rgb(20, 165, 1));
 }
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+.footer .social-media {
+    display: flex;
+    align-items: center;
+}
+.footer .social-media img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+.footer .social-media a {
+    margin-left: 10px;
+    font-size: 20px;
+    color: #000;
+}
+.footer .column-links {
+    list-style-type: none;
+    padding: 0;
+}
+.footer .column-links li {
+    margin: 5px 0;
+}
+.footer .column-links a {
+    text-decoration: none;
+    color: #000;
+}
+.footer .column-links a:hover {
+    text-decoration: underline;
+}
